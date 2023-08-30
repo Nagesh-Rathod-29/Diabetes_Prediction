@@ -1,0 +1,1 @@
+{"gender": {"Female": 0, "Male": 1, "Other": 2}, "Scaled features": ["age", "bmi", "HbA1c_level", "blood_glucose_level"], "feature": ["age", "bmi", "HbA1c_level", "blood_glucose_level"]}
