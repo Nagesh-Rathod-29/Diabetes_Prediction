@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Web Page</title>
+</head>
+<body>
+    <h1 style="background-color: blueviolet;text-align: center;">Diabetes Prediction Web Page</h1>
+    <h5>This is an application based on machine learning algorithm which can predict 
+        whether the person is suffering from diabetes or not with the help of below inputs.
+    </h5>
+    <style>
+        body {
+          background-image: url('https://img.freepik.com/premium-photo/background-diabetic-disease-concept-with-copy-space-world-diabetes-day-banner_132254-880.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+    <h3>Please insert all the details</h3>
+    <form action="/predict" method="get">
+        <label>Age:</label>
+        <input type="text" name="Age" placeholder="Insert Your Age Here (0.05 to 82)" size="25px">
+        <br>
+        <br>
+
+        <label>BMI:</label>
+        <input type="text" name="Bmi" placeholder="Insert Your BMI Here (14.5  to 40)" size="25px">
+        <br>
+        <br>
+
+        <label>HbA1c Level:</label>
+        <input type="text" name="HbA1c_Level" placeholder="Insert Your HbA1c_level Here (3.5 to 8.5)" size="35px">
+        <br>
+        <br>
+
+        <label>Blood Glucose Level:</label>
+        <input type="text" name="Blood_glucose_level" placeholder="Insert Your blood_glucose_level Here (80 - 250)" size="40px">
+        <br>
+        <br>
+
+        <input type="submit" name="submit">
+
+        <h1>Result: <i>{{prediction}}</i></h1>
+
+        <br>
+        <br>
+        <br>
+        <h5>Note : These results are based on data which is used to train the model</h5>
+        <br>
+        <br>
+
+        <h5>Created By : Nagesh Rathod (ML Engineer)</h5>
+
+    </form>
+</body>
+</html>
