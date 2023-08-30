@@ -19,5 +19,5 @@ This is a diabetes prediction web application which can predict whether the pers
 
 
 ## To know about data click below link
-https://www.kaggle.com/uciml/pima-indians-diabetes-database?select=diabetic
+https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 
