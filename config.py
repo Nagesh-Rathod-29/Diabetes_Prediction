@@ -1,4 +1,4 @@
-MODEL_FILE_PATH = r"artifactS//trained_model.pkl"
+MODEL_FILE_PATH = r"artifacts//trained_model.pkl"
 
 SCALER_fILE_PATH = r"artifacts//scaler.pkl"
 
